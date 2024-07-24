@@ -48,11 +48,11 @@ The dataset is the csv file provided which has complete loan data for all loans 
 * **Public Record Bankruptcies** A history of bankruptcy is a strong indicator of increased loan default risk.
 
 <p style="font-size:14px;"><u><b>Driving Factor Variables</b></u></p>  
-* Interest rate
-* Loan grade
-* Annual income
-* Debt-to-income ratio
-* Public recorded bankruptcies
+* Interest rate  
+* Loan grade  
+* Annual income  
+* Debt-to-income ratio  
+* Public recorded bankruptcies  
 
 ## Technologies Used
 - Pandas - version 2.1.4
