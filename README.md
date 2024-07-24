@@ -41,15 +41,18 @@ Ultimately, this analysis will contribute to improved risk and portfolio assessm
 The dataset is the csv file provided which has complete loan data for all loans issued through the time period 2007 to 2011.
 
 ## Conclusions
-- As the interest rate increases, the proportion of "Charged Off" loans increases significantly 
-- Applicants with lower annual incomes are more likely to be "Charged Off"
-- As grade decreases from [A - G] the chances to get "Charged Off" increases. 
-  A - High Grade Low risk , ..G - Low Grade High Risk
-- DTI ratios for "Charged Off" loans are generally higher. 
+* **Interest rate** is a strong predictor of loan default. Higher interest rates are associated with a significantly higher proportion of charged-off loans.
+* **Borrowers** with lower annual income are more likely to default on their loans.
+* **Loan grade** is a significant factor in determining loan performance. Lower grades (D, E, F, G) have a higher likelihood of default compared to higher grades (A, B).
+* **Debt-to-income (DTI) ratio** is positively correlated with loan default rates. Higher DTI ratios are associated with a higher likelihood of default.
+* **Public Record Bankruptcies** A history of bankruptcy is a strong indicator of increased loan default risk.
 
-Applicants with shorter employment lengths, having higher interest rates are tend to get defaulted
-Larger loan amounts being taken for purposes like "small_business" and "home_improvement", can be risky 
-Assuming Bad Economic Conditions in 2011, this year saw an increase in volume of loans and likewise the volume of defaulters
+<p style="font-size:14px;"><u><b>Driving Factor Variables</b></u></p>  
+* Interest rate
+* Loan grade
+* Annual income
+* Debt-to-income ratio
+* Public recorded bankruptcies
 
 ## Technologies Used
 - Pandas - version 2.1.4
@@ -62,4 +65,4 @@ Assuming Bad Economic Conditions in 2011, this year saw an increase in volume of
 This project was inspired by UpGrad IIITB Programme as a case study for the Artificial Intelligence Machine Learning course.
 
 ## Case Study Collaborators
-Created by [@rupa-gattani] [@]
+Created by [@rupa-gattani] [@shilpa-pv]
