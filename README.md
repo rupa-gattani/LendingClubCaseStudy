@@ -47,7 +47,7 @@ The dataset is the csv file provided which has complete loan data for all loans 
 * **Debt-to-income (DTI) ratio** is positively correlated with loan default rates. Higher DTI ratios are associated with a higher likelihood of default.
 * **Public Record Bankruptcies** A history of bankruptcy is a strong indicator of increased loan default risk.
 
-<p style="font-size:14px;"><u><b>Driving Factor Variables</b></u></p>  
+**Driving Factor Variables**    
 * Interest rate  
 * Loan grade  
 * Annual income  
