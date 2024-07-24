@@ -1,4 +1,4 @@
-# Project Name: Lending Club Case Study
+# Lending Club Case Study
 > A Brief Overview: When consumer finance companies receive loan applications, they must decide whether to approve the loan based on the applicant’s profile. To identify 'risky' applicants, these companies rely on various risk parameters. This project aims to identify such risk factors.
 
 ## Table of Contents
@@ -42,7 +42,7 @@ The dataset is the csv file provided which has complete loan data for all loans 
 
 ## Conclusions
 * **Interest rate** is a strong predictor of loan default. Higher interest rates are associated with a significantly higher proportion of charged-off loans.
-* **Borrowers** with lower annual income are more likely to default on their loans.
+* Applicants with lower **annual income** are more likely to default on their loans.
 * **Loan grade** is a significant factor in determining loan performance. Lower grades (D, E, F, G) have a higher likelihood of default compared to higher grades (A, B).
 * **Debt-to-income (DTI) ratio** is positively correlated with loan default rates. Higher DTI ratios are associated with a higher likelihood of default.
 * **Public Record Bankruptcies** A history of bankruptcy is a strong indicator of increased loan default risk.
